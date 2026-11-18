@@ -1,7 +1,16 @@
-OctoAcme manages projects through a clearly defined lifecycle: initiation, planning, execution, release, and retrospective follow-up. Initiation validates the business need through a project one-pager, stakeholder alignment, measurable success criteria, and a go/no-go decision. Approved work moves into planning, where the team prioritizes a backlog, establishes acceptance criteria and a Definition of Done, estimates work, identifies dependencies, documents risks, and agrees on milestones and a release plan.
+# OctoAcme Project Management Docs
 
-The delivery model assigns clear accountability across defined personas. The Project Manager coordinates schedules, risks, dependencies, meetings, and stakeholder communications; the Product Manager sets outcomes, prioritizes work, and measures impact; developers implement and test features; and QA validates acceptance criteria and quality. Stakeholders contribute approvals and domain guidance, while named owners in the risk register and backlog ensure decisions, issues, and improvements have visible follow-through.
+## Summary
 
-Communication is structured and recurring to maintain transparency across the team. Depending on the stage, this includes kickoff and planning meetings, weekly PM–PdM alignment, twice-weekly delivery standups, weekly delivery and stakeholder updates, sprint demos, milestone reviews, and incident escalation. Work is tracked in a GitHub Projects-style board, and status, risks, decisions, and blockers are maintained in shared sources of truth such as project charters, risk registers, and release documentation.
+OctoAcme uses a five-stage project lifecycle—initiation, planning, execution, release, and retrospective—supported by clear ownership, documented decisions, measurable outcomes, and recurring communication. Projects begin with a validated need and stakeholders, then establish scope, resources, milestones, risks, and acceptance criteria before execution. Delivery is tracked through project boards, pull-request workflows, regular team rhythms, and quality checks, while risks and dependencies are communicated and escalated when needed. Releases follow repeatable checks and rollback plans, and retrospectives turn outcomes and lessons into actionable improvements.
 
-Quality is built into execution rather than deferred to release. Backlog items require clear acceptance criteria, and teams use unit, integration, end-to-end smoke, and manual acceptance testing as appropriate. Pull requests remain small, link to issues and criteria, run CI tests and security scans, and require approval before merging. Releases use staging validation, rollback plans, post-deploy verification, and stakeholder announcements. Retrospectives after sprints, releases, milestones, or incidents capture lessons and convert agreed improvements into owned, time-bound backlog actions.
+## Process documents
+
+- [Project management overview](./octoacme-project-management-overview.md) — Principles, roles, lifecycle, artifacts, and communication expectations.
+- [Project initiation](./octoacme-project-initiation.md) — Steps for validating a project and creating its initial charter.
+- [Project planning](./octoacme-project-planning.md) — Guidance for scope, milestones, dependencies, estimates, and release planning.
+- [Execution and tracking](./octoacme-execution-and-tracking.md) — Team rhythms, workflows, quality practices, metrics, and blocker escalation.
+- [Risks and communication](./octoacme-risks-and-communication.md) — Risk management, stakeholder updates, and communication practices.
+- [Release and deployment](./octoacme-release-and-deployment.md) — Release types, readiness checks, deployment, rollback, and verification.
+- [Retrospective and continuous improvement](./octoacme-retrospective-and-continuous-improvement.md) — Retrospective structure and follow-through on improvement actions.
+- [Roles and personas](./octoacme-roles-and-personas.md) — Responsibilities and collaboration patterns for project roles.
