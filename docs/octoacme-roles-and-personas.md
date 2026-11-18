@@ -75,6 +75,34 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ---
 
+## Proposed additions
+
+### Release Manager
+- Responsibilities: coordinate release planning and readiness; maintain release calendars; verify pre-release criteria; lead deployment and rollback decisions; communicate releases to stakeholders.
+- Interactions: aligns with the Project Manager on timing and risks, the Product Manager on scope, Developers on candidate readiness, QA/Testing on verification, and on-call/support teams on operations.
+
+### UX/Design Lead
+- Responsibilities: conduct or guide user research; define interaction patterns and usability standards; review designs; contribute to acceptance criteria.
+- Interactions: works with Product Managers on user and business outcomes, Developers on feasibility and implementation, QA/Testing on usability evidence, and Stakeholders on validation.
+
+### Scrum Master / Delivery Facilitator
+- Responsibilities: facilitate ceremonies; coach iterative practices; identify systemic impediments; support healthy estimation and focus.
+- Interactions: collaborates with Project Managers on cross-team dependencies and reporting, Product Managers on backlog readiness, and Developers/QA on flow and continuous improvement.
+
+### Security Lead
+- Responsibilities: provide security guidance and threat review; track security risks; coordinate vulnerability triage and remediation; support security incident escalation.
+- Interactions: partners with Developers on secure design and implementation, QA/Testing on validation, Project Managers on risk decisions and release gates, and Support/On-call during incidents.
+
+### Stakeholder Liaison / Customer Advocate
+- Responsibilities: gather and synthesize stakeholder and customer feedback; communicate outcomes and trade-offs; support adoption and change management.
+- Interactions: collaborates with Product Managers on priorities and evidence, Project Managers on stakeholder communication, and UX/Design on research and usability validation.
+
+## Expected outcomes
+- Clearer ownership and fewer missed handoffs
+- Faster, more consistent decisions and escalations
+- Better coverage of release, security, usability, and stakeholder needs
+- Improved onboarding and repeatable project execution
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
